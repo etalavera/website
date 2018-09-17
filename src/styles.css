@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'src/assets/css/carousel.css';
+@import 'node_modules/font-awesome/css/font-awesome.css';
+
+.carousel {
+    background-image: url("assets/img/pertopo.fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*filter:brightness(0.7);*/
+}
+
+.bg-blue{
+    /*background-color: rgba(0, 42, 82, 0.822);*/
+    background-color: #303436c4;
+}
+.nabvar-social {
+    background-color: #ffffff;
+    text-align: right;
+   
+}
+.nabvar-social .nav-link {
+    color: #5f6062;
+    font-family: proxima-nova, sans-serif;
+    font-size: 13px;
+}
+
+.navbar-brand img {
+    width: 30%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
