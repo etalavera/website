@@ -18,7 +18,7 @@
     <div>
       <nav class="bg-blue navbar navbar-expand-md navbar-dark">
         <div class="col-lg-6">
-          <a class="navbar-brand" href="#"><img src="../assets/img/logo.png"></a>
+          <a class="navbar-brand" href="/"><img src="../assets/img/logo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,7 +29,7 @@
           <div class="col-md-4">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" routerLink="/nosotros">Nosotros <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Servicios</a>
@@ -46,5 +46,10 @@
 </header>
 <main role="main">
     <router-outlet></router-outlet>
+    <hr class="featurette-divider">
+    <footer class="container">
+        <p class="float-right"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+        <p>&copy; 2017-2018 PERTOPO S. DE R.L. DE C.V. &middot; <!--<a href="#">Privacy</a> &middot; <a href="#">Terms</a>--></p>
+    </footer>
 </main>
 
