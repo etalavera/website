@@ -12,4 +12,6 @@ import { ContactoComponent } from './contacto/contacto.component';
   declarations: [HomeComponent, NosotrosComponent, ServiciosComponent, ContactoComponent],
   exports: [HomeComponent, NosotrosComponent, ServiciosComponent, ContactoComponent]
 })
-export class NavigationModule { }
+export class NavigationModule { 
+  
+}
